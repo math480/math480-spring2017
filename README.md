@@ -6,23 +6,25 @@ If you have questions, comments, or suggestions, please open a [New Issue].
 
 The url for this page is https://github.com/williamdemeo/math480-spring2017
 
-## How To Typeset Your Papers and Slides
+## Typesetting Your Work
 
-You must use the [LaTeX document preparation system](http://www.latex-project.org/).  If you
-don't already know how to use LaTeX, there is
-[plenty of online documentation](#latex-resources) to help you get started, but
-please *feel free to ask me if you need help!*  At the bottom of this page are
-some [links to LaTeX resources](#latex-resources). 
+You must use the
+[LaTeX document preparation system](http://www.latex-project.org/) to prepare
+all of your written work and slides in this class.  
+If you don't already know how to use LaTeX, there is
+[plenty of online documentation](#latex-resources) to help you get started, and
+please *feel free to ask me if you need help!*  At the bottom of this page there
+is a list 
+of [links to LaTeX resources](#latex-resources). 
 
+--------------------------------------
 
-## How To Submit Your Work
+## Setting up your Github account
 
-**Overview**
-
-You will use Git and GitHub to manage all of your work for this class.
+You will use Git and Github to manage all of your work for this class.
 Here are the steps you will follow to record and submit your work.
 
-1. Sign up for a GitHub account (unless you already have one)
+1. Sign up for a Github account (unless you already have one)
    at [github.com](https://github.com) and then 
    [email me](mailto:williamdemeo@gmail.com) immediately 
    to tell me your github username. 
@@ -31,11 +33,11 @@ Here are the steps you will follow to record and submit your work.
 
 3.  If you are using a Mac or Linux, 
 	[upload a public ssh key](https://help.github.com/articles/generating-ssh-keys)
-    to your GitHub account. (If you are using [GitHub for Windows][] 
+    to your Github account. (If you are using [Github for Windows][] 
 	you can skip this step.)
 
 4. After I receive your github username, I will add you to 
-   the GitHub organization called `math480`.
+   the Github organization called `math480`.
 
 5. Once you are a member of `math480`, create a new repository (where you will 
    store all of your work for this class).  Make sure the "owner" of the
@@ -49,16 +51,17 @@ Here are the steps you will follow to record and submit your work.
 Please check out the
 [5 Easy Guides to Help You Get Started](http://cjbrock.github.io/blog/2012/10/23/5-easy-guides-to-help-you-get-started-with-github/), especially if you are new to git.
 In particular, the [15 minute Git tutorial][], the
-[git--the simple guide][], and the [GitHub help pages][] are excellent.
+[git--the simple guide][], and the [Github help pages][] are excellent.
 For detailed comprehensive documentation see http://git-scm.com/doc.  
    
 Do not be afraid to ask questions.  I am here to give you as much help as you
-need to get started with git and Github.  Git takes a little time and practice 
+need.  Git takes a little time and practice 
 to get used to, and I don't expect it to be easy. But I hope you will 
 trust me that it can be an invaluable resource for managing projects and
 collaborating with others.  If you stick with it, I believe you will be very
 happy you did so. 
    
+--------------------------------------
 
 ## Create your first repository (locally)
 
@@ -69,11 +72,11 @@ in the cloud (i.e. on Github), and we will synchronize the two.
 The steps below should work on **Mac** and **Linux** computers.
 
 **Windows** users may try the
-[GitHub for Windows][] app, but please note that 
+[Github for Windows][] app, but please note that 
 I have never used it, so I won't be able to help if you get stuck.  
 However, according to [this help.github.com page][], it's easy. 
 If you have problems, please consult http://windows.github.com/help.html
-See also the [first Tip](#git-tips) below.
+See also the [Git Tips](#git-tips) below.
 
 
 **Creating a local git repository on the command line**
@@ -117,12 +120,13 @@ See also the [first Tip](#git-tips) below.
 
     If you get errors, please let me know!  
 	
-	As soon as you push your changes to GitHub, they will be viewable by
+	As soon as you push your changes to Github, they will be viewable by
     everyone.
 	
+--------------------------------------
 
 ## Git Tips
-+ If you've set up Git and your GitHub account properly, you won't have to enter
++ If you've set up Git and your Github account properly, you won't have to enter
 your GitHub password every time you push changes to the repository. If you use a 
 Mac or Linux, you should upload your public ssh key to your GitHub
 account by following
@@ -146,8 +150,10 @@ This is often hard to do in just a few lines and without spending too
 long thinking about each commit, so don't worry too much; just
 keep it in the back of your mind.
 
-+ If you ever have any trouble using Git or GitHub, please let me know!
++ If you ever have any trouble using Git or Github, please let me know!
 You can [email me](mailto:williamdemeo@gmail.com) or open a [new issue](https://github.com/math480/math480-spring2017/issues/new).
+
+--------------------------------------
 
 ## LaTeX Resources
 
@@ -173,6 +179,7 @@ You can [email me](mailto:williamdemeo@gmail.com) or open a [new issue](https://
 
 Lots more links at: http://www.tug.org/begin.html
 
+--------------------------------------
 
 
 [due date]: https://github.com/williamdemeo/Math700Homework/wiki/Homework-Schedule
@@ -194,10 +201,10 @@ Lots more links at: http://www.tug.org/begin.html
 [A Beginner's Guide to LaTeX]: http://www.cs.princeton.edu/courses/archive/spr10/cos433/Latex/latex-guide.pdf
 [LaTeX Guide]: http://en.wikibooks.org/wiki/LaTeX
 [Git--the simple guide]: http://rogerdudler.github.io/git-guide/
-[GitHub help pages]: https://help.github.com/
+[Github help pages]: https://help.github.com/
 [15 minute Git tutorial]: http://try.github.io/levels/1/challenges/1
 [This page]: http://git-scm.com/book/ch2-2.html
 [Magit]: http://magit.github.io/
 [detexify]: http://detexify.kirelabs.org/classify.html
-[GitHub for Windows]: https://help.github.com/articles/set-up-git#platform-windows
+[Github for Windows]: https://help.github.com/articles/set-up-git#platform-windows
 [this help.github.com page]: https://help.github.com/articles/adding-repositories-with-github-for-windows
