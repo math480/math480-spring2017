@@ -13,8 +13,8 @@ some [links to LaTeX resources](#latex-resources).
 If you ever have any trouble using LaTeX, please let your instructor know!
 You can [send email](mailto:williamdemeo@gmail.com), or post a question
 on Piazza.  You could also create a
-[new wiki page](https://github.com/math-students/math480-spring2017)
-for discussing some topic, or open a [new issue](https://github.com/math-students/math480-spring2017).
+[new wiki page](https://github.com/math480/math480-spring2017)
+for discussing some topic, or open a [new issue](https://github.com/math480/math480-spring2017).
 
 
 ## LaTeX Resources
@@ -35,7 +35,11 @@ for discussing some topic, or open a [new issue](https://github.com/math-student
   - [Introduction to Using TeX](http://www.math.harvard.edu/texman/texman.html) (Harvard)
   - [Some useful tips, esp. for Linux users](http://people.virginia.edu/~ll2bf/docs/quickref/latex.html) (Virginia)
   - [Video tutorials](http://www.spoken-tutorial.org/list_videos?view=1&foss=LaTeX&language=English)
-	
+
++ **Using LaTeX for presentations (Beamer)**
+  - [Beamer tutorial (uncg)](https://www.uncg.edu/cmp/reu/presentations/Charles%20Batts%20-%20Beamer%20Tutorial.pdf)
+  -	[Beamer tutorial (mit)](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf)
+
 + **Finding Math Symbols**
   - [Comprehensive Symbol List](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-letter.pdf)
   - [Brief Symbol List](http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:Symbols)
