@@ -4,18 +4,76 @@
 
 You are strongly encouraged to use the 
 [LaTeX document preparation system](http://www.latex-project.org/).  If you
-don't already know how to use LaTeX, there is
+don't already know how to use [LaTeX][], there is
 [plenty of online documentation](#latex-resources) to help you get started, but
 please *feel free to ask me if you need help!*  At the bottom of this page are
 some [links to LaTeX resources](#latex-resources). 
 
 
-If you ever have any trouble using LaTeX, please let your instructor know!
+If you ever have any trouble using [LaTeX][], please let me know! I am happy to help.
 You can [send email](mailto:williamdemeo@gmail.com), or post a question
 on Piazza.  You could also create a
 [new wiki page](https://github.com/math480/math480-spring2017)
 for discussing some topic, or open a [new issue](https://github.com/math480/math480-spring2017).
 
+## Creating your first LaTeX document
+
+Here is my usual workflow.  I will assume you have [LaTeX][] properly installed
+on your computer.  (For installation instructions, see the links below.)
+
+1. First I open up an existing LaTeX file in my editor of choice (which happens
+   to be emacs).  (I never start from scratch because it's too hard to remember 
+   all the LaTeX style and formatting commands that I typically like to use, and
+   it's pointless to retype them all every time I start a new project.)
+
+2. Next, I edit the file and add some content, and then I am careful to save the
+   file under a new name, so I don't overwrite the file I started from!
+   Let's call this new file `mypaper.tex`.
+
+3. Next, I switch over to a terminal window and, on the command line, I switch
+   to the directory containing the file `mypaper.tex`, and then I invoke the
+   following command:
+   
+        pdflatex mypaper.tex
+
+   Typically, I run this command at least twice.  The `pdflatex` program
+   compiles my LaTeX source code, contained in the file `mypaper.tex`, and
+   (assuming there were no errors) produces a pdf file called `mypaper.pdf`.
+
+4. I open the file `mypaper.pdf` in a pdf viewer and inspect the contents.
+
+The paper is almost never finished after the first compile.  Instead, I
+typically repeat steps 2 and 3 a few hundred times before I'm satisfied.
+
+## Storing your masterpiece in a Github repository
+Of course, after a couple of hours, I'll want to be sure my hard work is
+recorded until the end of time, so I add the `mypaper.tex` file 
+(and possibly the .pdf file) to a local git repository, and then I push my 
+changes to a remote repository on Github.  I carry out these steps as 
+follows: 
+
+Let's say I am in the `myproject` directory, which contains
+`mypaper.tex`. To initialize the repository and add `mypaper.tex` to it, I do
+the following on the command line:
+
+    git init
+	git add mypaper.tex
+	git commit -m "initial commit of my masterpiece-in-progress"
+	
+Then I go to Github.com, login to my Github account, and create a new repository
+called, say, `myproject`.  Then, back on the command line, I type:
+
+    git remote add-url origin git@github.com:williamdemeo/myproject.git
+	git push -u origin master
+	
+Luckily, you don't have to remember the last two commands because Github kindly
+displays them everytime you create a new repository.
+	
+Please give this process a try.  I think you will find it's not too hard to get
+the hang of it and, before you know it, you will have all your work nicely
+archived on the web... so that it may have a broad, profound, and lasting impact
+on all humankind.
+	
 
 ## LaTeX Resources
 
@@ -59,46 +117,26 @@ Lots more links at: http://www.tug.org/begin.html
 ## Text Editors
 
 1. [Emacs](https://www.gnu.org/software/emacs/) (my favorite, but it's a
-   heavy-weight; some would say it includes the kitchen sink)
+   heavy-weight; you might say it includes the kitchen sink)
    
-2. [Vim](http://www.vim.org/) (what all the "cool" kids are using these days)
+2. [Vim](http://www.vim.org/) (what the "cool" kids are using these days)
 
-For more options and opinions, see
+For more options and opinions about text editors, see
 http://lifehacker.com/five-best-text-editors-1564907215
 
 Emacs is my favorite editor, and I highly recommend it. But beware, some people think it's very
 challenging to learn to use emacs effectively. The diagrams below depict
-learning curves for various editors.
+alleged learning curves for various editors.
 
-![learning curves](http://www.manuelmagic.me/geek/texteditors/files/text_editors.jpg)
+![learning curves](http://mrozekma.com/editor-learning-curve.png)
+
+(more fake learning curves [here](http://www.manuelmagic.me/geek/texteditors/files/text_editors.jpg))
 
 
 
 
 
-[due date]: https://github.com/williamdemeo/Math700Homework/wiki/Homework-Schedule
-[upload a public ssh key]: https://help.github.com/articles/generating-ssh-keys
-[New Issue]: https://github.com/williamdemeo/Math700Homework/issues
-[Clone]: http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
-[clone]: http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
-[install Git]: https://help.github.com/articles/set-up-git
-[Fork]: https://help.github.com/articles/fork-a-repo
-[fork]: https://help.github.com/articles/fork-a-repo
-[pull request]: https://help.github.com/articles/using-pull-requests
-[forks]: https://help.github.com/articles/fork-a-repo
-[pull requests]: https://help.github.com/articles/using-pull-requests
-[Commit]: http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes
-[commit]: http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes
-[Push]: https://help.github.com/articles/create-a-repo#step-3-push-your-commit
-[push]: https://help.github.com/articles/create-a-repo#step-3-push-your-commit
-[15 minute tutorial]: http://try.github.io/levels/1/challenges/1
 [A Beginner's Guide to LaTeX]: http://www.cs.princeton.edu/courses/archive/spr10/cos433/Latex/latex-guide.pdf
 [LaTeX Guide]: http://en.wikibooks.org/wiki/LaTeX
-[Git--the simple guide]: http://rogerdudler.github.io/git-guide/
-[GitHub help pages]: https://help.github.com/
-[15 minute Git tutorial]: http://try.github.io/levels/1/challenges/1
-[This page]: http://git-scm.com/book/ch2-2.html
-[Magit]: http://magit.github.io/
 [detexify]: http://detexify.kirelabs.org/classify.html
-[GitHub for Windows]: https://help.github.com/articles/set-up-git#platform-windows
-[this help.github.com page]: https://help.github.com/articles/adding-repositories-with-github-for-windows
+[LaTeX]: http://www.latex-project.org/
