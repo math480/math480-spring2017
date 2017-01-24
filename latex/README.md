@@ -23,6 +23,7 @@ for discussing some topic, or open a [new issue](https://github.com/math480/math
   - [ShareLaTeX](http://www.sharelatex.com)
   
 + **Downloading/Installing LaTeX**
+  - [General Information](https://www.latex-project.org/get/)
   - [TeXLive](http://www.tug.org/texlive/) is for Linux users.
   - [MacTeX](http://www.tug.org/mactex/) is for Mac users.
   - [proTeXt](http://www.tug.org/protext/) is for Windows users.
@@ -33,9 +34,8 @@ for discussing some topic, or open a [new issue](https://github.com/math480/math
   - [The not-so-short guide to LaTeX](http://mirror.ctan.org/info/lshort/english/lshort.pdf)
   - [George Gratzer's short course](http://www.ctan.org/tex-archive/info/Math_into_LaTeX-4/)
   - [Introduction to Using TeX](http://www.math.harvard.edu/texman/texman.html) (Harvard)
-  - [Some useful tips, esp. for Linux users](http://people.virginia.edu/~ll2bf/docs/quickref/latex.html) (Virginia)
-  - [Video tutorials](http://www.spoken-tutorial.org/list_videos?view=1&foss=LaTeX&language=English)
-
+  - [TeX resources](http://www.ams.org/publications/authors/tex/tex) (American Mathematical Society)
+	
 + **Using LaTeX for presentations (Beamer)**
   - [Beamer tutorial (uncg)](https://www.uncg.edu/cmp/reu/presentations/Charles%20Batts%20-%20Beamer%20Tutorial.pdf)
   -	[Beamer tutorial (mit)](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf)
@@ -46,7 +46,34 @@ for discussing some topic, or open a [new issue](https://github.com/math480/math
   - [Cheat Sheet (pdf)](http://ctan.math.washington.edu/tex-archive/info/latexcheat/latexcheat/latexsheet.pdf) [(html)](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
   - [detexify][] If you can draw the symbol with your mouse, try [detexify][]!
 
++ **LaTeX Resources for Mac Users**
+  - [Installing LaTeX on Mac OSX](http://www.howtotex.com/howto/installing-latex-on-mac-os-x/)
+  - [MacTeX](https://tug.org/mactex/)
+  - [TeXShop](http://pages.uoregon.edu/koch/texshop/)
+  - [TeXworks](http://www.tug.org/texworks/)
+  
 Lots more links at: http://www.tug.org/begin.html
+
+---------------------------------------------------------
+
+## Text Editors
+
+1. [Emacs](https://www.gnu.org/software/emacs/) (my favorite, but it's a
+   heavy-weight; some would say it includes the kitchen sink)
+   
+2. [Vim](http://www.vim.org/) (what all the "cool" kids are using these days)
+
+For more options and opinions, see
+http://lifehacker.com/five-best-text-editors-1564907215
+
+Emacs is my favorite editor, and I highly recommend it. But beware, some people think it's very
+challenging to learn to use emacs effectively. The diagrams below depict
+learning curves for various editors.
+
+![learning curves](http://www.manuelmagic.me/geek/texteditors/files/text_editors.jpg)
+
+
+
 
 
 [due date]: https://github.com/williamdemeo/Math700Homework/wiki/Homework-Schedule
