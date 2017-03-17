@@ -52,10 +52,10 @@ of emphasis.
 Math 480 is offered only as a CR/NC class.  Students cannot pass the class
 without completing the following to the satisfaction of the instructor: 
 
-+ attending all classes and regularly participating in class discussions;</li>
-+ presenting solutions to homework assignments four times during the semester
+1. attending all classes and regularly participating in class discussions;</li>
+2. presenting solutions to homework assignments four times during the semester
 (oral presentations);
-+ taking the mathematics department assessment exam at the end of the semester
+6. taking the mathematics department assessment exam at the end of the semester
 
 ## Course Content
 
