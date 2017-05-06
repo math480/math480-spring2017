@@ -122,6 +122,20 @@ a file called README.md.  Now we will see how to
 	
 --------------------------------------
 
+**Git workflow**
+
+Once you get your local and remote repositories set up, you will get
+the hang of a standard "git workflow"---that is, a standard routine
+that you use to make changes to your files and push those changes to
+the remote repository. A brief explanation of this can be 
+found [here](https://github.com/williamdemeo/utils/tree/master/git-init-and-workflow).
+
+To begin using the real power of git, you should learn how to create
+and merge branches.  For a nice and easy summary of these and other git
+capabilities, I recommend [git--the simple guide](http://rogerdudler.github.io/git-guide/).
+
+---------------------------------------
+
 **Getting Help**
 
 Please check out the
@@ -177,7 +191,7 @@ happy you did so.
 [install Git]: https://help.github.com/articles/set-up-git
 [Fork]: https://help.github.com/articles/fork-a-repo
 [fork]: https://help.github.com/articles/fork-a-repo
-[pull request]: https://help.github.com/articles/using-pull-requests
+[pull]: https://help.github.com/articles/using-pull-requests
 [forks]: https://help.github.com/articles/fork-a-repo
 [pull requests]: https://help.github.com/articles/using-pull-requests
 [Commit]: http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes
